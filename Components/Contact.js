@@ -1,7 +1,10 @@
 import React from 'react'
+import Navbar from './NavBar'
 
 const Contact = () => {
   return (
+    <>
+    <Navbar />
     <div className='max-w-[1240px] m-auto p-4 h-screen'>
         <h1 className='text-2xl font-bold text-center p-4'>Let's work together</h1>
         <form className='max-w-[600px] m-auto'>
@@ -14,6 +17,7 @@ const Contact = () => {
             <button className='border shadow-lg p-3 w-full mt-2'>Submit</button>
         </form>
     </div>
+    </>
   )
 }
 
